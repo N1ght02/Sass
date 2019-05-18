@@ -1,0 +1,270 @@
+
+/* importeer variabelen */
+@import 'vars';
+
+/* reset stijlen */
+@import 'reset';
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Quicksand;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Header opmaak */
+header img {
+	padding-top: $padding/5;
+	width: 200px;
+}
+
+@import 'header';
+
+header .menu li, header .menu a {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	color: $hoofdkleur;
+	padding-right: 1.5em;
+}
+
+/*Content opmaak*/
+.ContainerEen #top-image {
+	position: absolute;
+	top: 5em;
+	right: 0;
+}
+
+.ContainerEen #top-image-brain {
+	position: absolute;
+	top: 10em;
+	right: 13em;
+	width: 250px;
+}
+
+.ContainerEen #image-text {
+	position: absolute;
+	top: 8em;
+	color: $wit;
+	font-size: 1.5em;
+}
+
+.ContainerEen #image-btn {
+	position: absolute;
+	top: 26em;
+	left: 35em;
+	padding: $padding;
+	border: 2px solid $wit;
+	border-radius: 8px;
+	background-color: $hoofdkleur;
+	color: $wit;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.ContainerEen #image-btn:hover {
+	cursor: pointer;
+}
+
+.WatDoenWijText {
+	position: absolute;
+	top: 35em;
+	left: 22em;
+	width: 950px;
+	text-align: center;
+	color: $hoofdkleur;
+}
+
+.WatDoenWijText #wdw-ptext {
+	color: black;
+}
+
+.WatDoenWijText #ontdek-btn {
+	position: absolute;
+	top: 13em;
+	left: 19.5em;
+	padding: $padding;
+	border: 2px solid $wit;
+	border-radius: 8px;
+	background-color: $hoofdkleur;
+	color: $wit;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.WatDoenWijText #register-text {
+	position: absolute;
+	top: 18em;
+	left: 23em;
+	font-size: 0.9em;
+	color: $hoofdkleur;
+}
+
+.WatDoenWijText #wdw-ipad-img {
+	position: absolute;
+	top: 12em;
+	left: 40em;
+}
+
+.grid-text .sect-1 {
+	width: 250px;
+	position: absolute;
+	top: 60em;
+}
+
+.grid-text .sect-2 {
+	width: 250px;
+	position: absolute;
+	top: 60em;
+	left: 35em;
+}
+
+.grid-text .sect-3 {
+	width: 250px;
+	position: absolute;
+	top: 60em;
+	left: 55em;
+}
+
+.grid-text .sect-4 {
+	width: 250px;
+	position: absolute;
+	top: 60em;
+	left: 75em;
+}
+
+.text-sect {
+	color: $hoofdkleur;
+}
+
+.ipad-win {
+	position: absolute;
+	top: 93em;
+	left: 0;
+	color: $wit;
+	background-color: $sidekleur;
+	width: 100%;
+}
+
+#ipadimg1 {
+	position: absolute;
+	top: 3.4em;
+	left: 60em;
+}
+
+#ipadimg2 {
+	position: absolute;
+	top: 4em;
+	left: 37em;
+}
+
+#ipad-h1 {
+	margin-top: 3em;
+	margin-left: 5.4em;
+}
+
+#ipad-p {
+	margin-left: 10em;
+	font-size: 1.1em;
+	margin-bottom: 3em;
+}
+
+#ipad-btn {
+	margin-left: 11em;
+	margin-bottom: 3em;
+	padding: $padding;
+	border: 2px solid $wit;
+	border-radius: 8px;
+	background-color: $hoofdkleur;
+	color: $wit;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.contact {
+	position: absolute;
+	top: 124em;
+	left: 25em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+#contact-img {
+	position: absolute;
+	top: 3em;
+	left: 60em;
+}
+
+#contact-h1 {
+	color: $hoofdkleur;
+}
+
+#contact-btn {
+	margin-bottom: 3em;
+	position: absolute;
+	left: 23.7em;
+	padding: $padding;
+	border: 2px solid $wit;
+	border-radius: 8px;
+	background-color: $hoofdkleur;
+	color: $wit;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	top: 140em;
+	background-color: $hoofdkleur;
+	width: 100%;
+	height: 200px;
+}
+
+.footer #footer-img {
+	position: absolute;
+	top: 2em;
+	left: 5em;
+	width: 12em;
+}
+
+.footer #footer-group {
+	position: absolute;
+	top: 7em;
+	left: 5em;
+	color: $wit;
+}
+
+.footer #footer-copy {
+	position: absolute;
+	top: 7em;
+	left: 90em;
+	color: $wit;
+}
+
+.footer #footer-links {
+	position: absolute;
+	top: 1em;
+	left: 62em;
+	display: inline-flex;
+	list-style-type: none;
+	color: $wit;
+}
+
+.footer li {
+	padding-right: $padding*3;
+}
+
+.footer #extra {
+	position: absolute;
+	top: 18em;
+	left: 188em;
+	font-size: .5em;
+	color: $wit;
+}
